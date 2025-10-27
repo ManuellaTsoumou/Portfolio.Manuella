@@ -1,0 +1,37 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ff0303;
+  margin: 0;
+}
+
+header {
+  background-color: #d2a1a1;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+  background-color: #d2a1a1;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  z-index: 10;
+}
+
+.scrolling header,
+.scrolling footer {
+  background-color: #fff;
+}
