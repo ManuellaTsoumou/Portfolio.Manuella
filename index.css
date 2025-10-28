@@ -1,11 +1,12 @@
 header {
-background-color: #0011ff;
-padding: 20px;
+background-color: #a800b8;
+padding: px;
+position: fixed;
 }
 
 nav ul {
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
   letter-spacing: none;
   display: flex;
   align-items: center;
@@ -16,3 +17,31 @@ nav ul li a {
   text-decoration: none;
   color: #ffffff;
 }
+
+footer {
+  background-color: #a800b8;
+  position: fixed;
+}
+body {
+  font-family: 'Times New Roman', Times, serif;
+  height: 100%;
+}
+#Acceuil {
+ height: 40vh;
+ text-align: left;
+ justify-content: center;
+ align-items: flex-start;
+ padding: 150px;
+}
+
+button {
+width: 100px;
+height: 30px;
+border-radius: 15px;
+background-color: #a800b8;
+}
+h2 {
+  color: #a800b8;
+  padding: 10px;
+}
+
