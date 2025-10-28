@@ -1,37 +1,18 @@
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background-color: #ff0303;
-  margin: 0;
-}
-
 header {
-  background-color: #d2a1a1;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
+background-color: #0011ff;
+padding: 20px;
 }
 
 nav ul {
-    list-style: none;
-    display: flex;
-    gap: 40px;
-    margin: 0;
-    padding: 0;
+  justify-content: center;
+  gap: 30px;
+  letter-spacing: none;
+  display: flex;
+  align-items: center;
+  list-style: none;
 }
 
-
-footer {
-  background-color: #d2a1a1;
-  text-align: center;
-  padding: 20px;
-  position: fixed;
-  z-index: 10;
-}
-
-.scrolling header,
-.scrolling footer {
-  background-color: #fff;
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
 }
