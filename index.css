@@ -1,31 +1,34 @@
 header {
-background-color: #a800b8;
-padding: px;
-position: fixed;
+  background-color: #a800b8;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 20px 0; /* pour une belle hauteur */
+  z-index: 10;
 }
 
 nav ul {
+  display: flex;
   justify-content: center;
   gap: 60px;
-  letter-spacing: none;
-  display: flex;
   align-items: center;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav ul li a {
   text-decoration: none;
   color: #ffffff;
+  font-weight: bold;
 }
 
-footer {
-  background-color: #a800b8;
-  position: fixed;
-}
 body {
   font-family: 'Times New Roman', Times, serif;
-  height: 100%;
+  padding-top: 80px; /* éviter que le header fixe cache le contenu */
 }
+
 #Acceuil {
  height: 40vh;
  text-align: left;
@@ -44,4 +47,5 @@ h2 {
   color: #a800b8;
   padding: 10px;
 }
+
 
